@@ -1,1 +1,1 @@
-module github.com/nicksnyder/hello/v2
+module github.com/nicksnyder/hello/v3
