@@ -7,7 +7,8 @@ import (
 )
 
 func TestHelloGet(t *testing.T) {
-	if h := hello.Get(); h != "hello" {
-		t.Fatalf(`expected "hello"; got %q`, h)
+	expected := "Hello!"
+	if h := hello.Get(); h != expected {
+		t.Fatalf(`expected %q; got %q`, expected, h)
 	}
 }
