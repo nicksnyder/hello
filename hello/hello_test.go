@@ -3,7 +3,7 @@ package hello_test
 import (
 	"testing"
 
-	"github.com/nicksnyder/hello/v2"
+	"github.com/nicksnyder/hello/v2/hello"
 )
 
 func TestHelloGet(t *testing.T) {
